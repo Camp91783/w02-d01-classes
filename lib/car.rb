@@ -1,6 +1,6 @@
 require "pry"
 
-class Cars
+class Car
 
 	def initialize(options ={})
 		@type = options[:type]
@@ -30,5 +30,8 @@ class Cars
 
 	def mileage=(new_mileage)
 		@mileage = new_mileage unless new_mileage < 1
+	end
+
+end
 
 binding.pry

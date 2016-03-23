@@ -1,4 +1,4 @@
-class nba players
+class NbaPlayer
 
 	def initialize(options={})
 		@name = options[:name]
@@ -47,4 +47,6 @@ class nba players
 	def ppg=(new_ppg)
 		@ppg = new_ppg unless new_ppg < 1
 	end
+end
+
 
