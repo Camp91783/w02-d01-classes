@@ -7,7 +7,7 @@ class CarTest	< Minitest::Test
 	def test_that_can_be_created_under_normal_circumstances
 		car= Car.new(type: "suv" , color: "blue" , mileage: 100)
 		refute_nil(car)
-	
+
 	end	
 
 	def test_type_getter

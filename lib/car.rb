@@ -2,8 +2,8 @@
 
 class Car
 
-	attr_reader :type, :color, :mileage
-	attr_writer :type, :color, :mileage
+	attr_accessor :type, :color, :mileage
+	
 
 	def initialize(options={})
 		@type = options [:type]
